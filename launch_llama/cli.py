@@ -1,6 +1,6 @@
 import argparse
 
-def create_parser():
+def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog='launch-llama',
         description='Launch and manage llama server instances'
